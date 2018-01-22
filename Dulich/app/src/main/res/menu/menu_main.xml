@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gnud.dulich.MainActivity">
+    <item
+        android:id="@+id/newtrip"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_checked"
+        android:title="Tạo chuyến đi mới"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/editTrip"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_edit_green"
+        android:title="Chỉnh lại chuyến đi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deleteTrip"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_remove_green"
+        android:title="Xóa chuyến đi này"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gnud.dulich.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:background="@color/bacbac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="Nơi bạn đến"
+        android:paddingLeft="15dp"/>
+    <AutoCompleteTextView
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"/>
+    <TextView
+        android:background="@color/bacbac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="Ngày đi"
+        android:paddingLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:editable="false"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="15dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:background="@color/bacbac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="Số ngày ở lại"
+        android:paddingLeft="15dp"/>
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="@color/bacbac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="Kiểu chuyến đi"
+        android:paddingLeft="15dp"/>
+</LinearLayout>

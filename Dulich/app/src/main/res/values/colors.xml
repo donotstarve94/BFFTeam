@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff86c5bc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_backno">#ff80cbc4</color>
+    <color name="background_backno1">#ff009688</color>
+    <color name="spb_default_color">#ff33b5e5</color>
+    <color name="bac">#ffcccac2</color>
+    <color name="bacbac">#fff0eee4</color>
+    <color name="first_text_gray">#ffb9b7b0</color>
+    <color name="background_back">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="first_bg">#fff0eee4</color>
+    <color name="actionbar_color">#ff86c5bc</color>
+    <color name="title_shadow">#ff79b3aa</color>
+    <color name="btn_yellow_normal">#fff9b021</color>
+    <color name="btn_yellow_presseed">#ffa26d20</color>
+    <color name="white">#ffffff</color>
+    <color name="stroke_item_activity">#ffcccac2</color>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="sticklistcolor">#b3ffffff</color>
+    <color name="color_btnback">#b6ffffff</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="red">#F44336</color>
+    <color name="whiteopa">#1Affffff</color>
+</resources>
